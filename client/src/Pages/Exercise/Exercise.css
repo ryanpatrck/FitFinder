@@ -1,0 +1,29 @@
+h1.Exercise {
+    background-color: #30415D;
+    color: #D3B53D !important
+    
+}
+div.container {
+   
+    width: 100%;
+}
+div.exercises.card {
+   background-color: white;
+   color: white;
+   width: 40%;
+   float: right;
+}
+div.card-content.grey-text{
+   background-color: #fffef9;
+}
+h2 {
+    color: black;
+}
+
+button.btn{
+    background-color: #D3B53D;
+    color: #30415D;
+}
+h3 {
+    color: black;
+}
