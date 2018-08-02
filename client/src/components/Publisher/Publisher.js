@@ -36,10 +36,6 @@ class Publisher extends React.Component {
         eventHandlers={this.publisherEventHandlers}
         />
         <OTStreams>
-          <OTSubscriber 
-          properties={this.subscriberProperties}
-          eventHandlers={this.subscriberEventHandlers}
-          />
           
         </OTStreams>
       </OTSession>
