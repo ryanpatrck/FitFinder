@@ -34,7 +34,10 @@ class Subscriber extends React.Component {
         
      
         <OTStreams>
-          <OTSubscriber />
+          <OTSubscriber 
+           properties={this.subscriberProperties}
+           eventHandlers={this.subscriberEventHandlers}
+          />
         </OTStreams>
       </OTSession>
        
