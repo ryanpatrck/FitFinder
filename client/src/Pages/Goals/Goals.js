@@ -133,7 +133,7 @@ class Home extends Component {
                             <div className="submit">
                                 <Button waves='light' node='a' href='/matching'> Go to Matching </Button>
                                 <Col>
-                                    <Button className="goals" waves='light' name="action" onClick={this.handleFormSubmit} >Submit</Button>
+                                    <Button className="goals" waves='light' name="action" onClick={this.handleInputChange} >Submit</Button>
                                 </Col>
                             </div>
                         </Card>
