@@ -18,6 +18,7 @@ class Exercise extends Component {
           <Row>
             <Col s={6}>
               <Publisher />
+              <Subscriber />
             </Col>
           <Col m={6} s={6}>
               <Card className='exercises' textClassName='grey-text'  >
